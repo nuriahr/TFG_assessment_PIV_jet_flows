@@ -13,8 +13,15 @@ MATLAB implementation of Event-Based Imaging Velocimetry algorithms developed fo
 **1. Configure paths and parameters** in `Global_Benchmark_main.m`:
 ```matlab
 base_pairs_dir = "path/to/PaIRS_results/";
-base_tifs_dir  = "path/to/TIF_images/";
+dir_error_figs = "path/to/output/error_maps";
+dir_error_pdf  = "path/to/output/error_PDFs";
+dir_videos     = "path/to/output/videos";
+dir_csv        = "path/to/output/csv";
+dir_snapshots  = "path/to/output/snapshots";
+base_tifs_dir  = "path/to/TIF_images";
+
 datasets = {
+    'Sparse', "path/to/Sparse_dataset.hdf5";
     'Medium', "path/to/Medium_dataset.hdf5";
     'High',   "path/to/High_dataset.hdf5";
 };
