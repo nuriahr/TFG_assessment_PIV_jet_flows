@@ -47,5 +47,4 @@ run('analysis/spectrum_comparison.m')    % PSD: algorithm vs. PaIRS
 
 ## Reference
 
-N. Hermoso, *Event-Based Imaging Velocimetry for Aerodynamic
-Flow Control*, TFG, Universidad Carlos III de Madrid, 2026.
+Nuria Hermida Rodríguez, *Assessment of Particle Image Velocimetry using neuromorphic cameras for jet flow measurements*, TFG, Universidad Carlos III de Madrid, 2026.
